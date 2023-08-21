@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Prática Guiada 2</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+  <main>
+
+    <label for="nome">Nome:</label>
+    <input onkeyup="pegarNome()" onkeydown="limparNome()" type="text" id="nome" name="nome" value=""
+      placeholder="Escreva seu nome aqui" />
+    <br />
+
+    <label for="endereco">Endereço</label>
+    <input onkeyup="pegarEndereco()" onkeydown="limparEndereco()" type="text" id="endereco" name="endereco" value=""
+      placeholder="Endereço" />
+    <br />
+
+    <label for="">Email:</label>
+    <input onkeyup="pegarEmail()" type="email" id="email" name="email" value="" placeholder="Email" />
+
+  </main>
+</body>
+
+</html>

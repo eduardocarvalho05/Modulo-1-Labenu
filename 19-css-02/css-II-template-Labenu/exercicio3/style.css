@@ -1,0 +1,18 @@
+section {
+    text-align: center;
+    margin-top: 40vh;
+}
+
+button {
+    font-size: 50px;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+}
+
+button:active {
+    background-color: pink;
+    color: red;
+}

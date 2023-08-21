@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template: 10vh auto 10vh / auto;
+}
+
+.cabecalho {
+    border: 1px solid black;
+    display: grid;
+    /* grid-template-rows: 10vh; */
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.botao-cabecalho {
+    justify-self: end;
+}
+
+/* .container-main {
+    display: grid;
+    grid-template: 1fr / 1fr 2fr 1fr;
+}
+
+.content-container {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    padding: 16px;
+} */
+
+.rodape {
+    border: 1px solid black;
+    /* height: 10vh; */
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 150px);
+    gap: 20px;
+    min-height: 80vh;
+    align-items: center;
+    justify-content: center;
+}

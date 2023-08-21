@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    top: 0;
+    position: fixed;
+    background-color: blue;
+    color: white;
+    font-size: 50px;
+    width: 100vw;
+    height: 10vh;
+}
+
+main {
+    background-color: green;
+    margin-top: 10vh;
+    height: 100vh;
+    width: 100vw;
+}
+
+footer {
+    background-color: red;
+    position: relative;
+    height: 10vh;
+    width: 100vw;
+    bottom: 0;
+}

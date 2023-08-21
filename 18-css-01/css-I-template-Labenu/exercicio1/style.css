@@ -1,0 +1,43 @@
+#titulo-importante {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: solid black 4px;
+    border-radius: 10px;
+    box-shadow: black 2px 2px 2px 2px;
+}
+
+.sub-titulo {
+    background-color: yellow;
+    padding: 10px;
+    border: solid black 4px;
+    border-radius: 10px;
+    box-shadow: black 2px 2px 2px 2px;
+}
+
+section {
+    background-color: green;
+    padding: 10px;
+    border: solid black 4px;
+    border-radius: 10px;
+    box-shadow: black 2px 2px 2px 2px;
+}
+
+.titulo-secao {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto-generico {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo-pouco-importante {
+    background-color: black;
+    color: white;
+    border: solid black 4px;
+    border-radius: 10px;
+    box-shadow: black 2px 2px 2px 2px;
+}
